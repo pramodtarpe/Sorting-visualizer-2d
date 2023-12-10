@@ -1,11 +1,15 @@
-import './App.css';
+import Canvas from './Components/Canvas/Canvas';
+import Banner from './Components/UI/Banner/Banner';
 import Card from './Components/UI/Card/Card';
 
 function App() {
   return (
     <div className="App">
       <Card>
-        <h1>Hello World</h1>
+        <Banner type="h2">Sorting Visualizer for Images</Banner>
+      </Card>
+      <Card>
+        <Canvas/>
       </Card>
     </div>
   );
